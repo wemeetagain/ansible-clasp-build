@@ -1,0 +1,6 @@
+---
+
+- name: Make clasp
+  shell: make clean; make
+  args:
+    chdir: {{ clasp_src_dir }}
