@@ -1,0 +1,6 @@
+---
+
+- name: Checkout clasp from repo
+  git: repo={{ clasp_repo }}
+       dest={{ clasp_src_dir }}
+       version={{ clasp_branch }}
