@@ -10,3 +10,5 @@ clasp_src_dir: ~/clasp
 # clasp remote
 clasp_repo: https://github.com/drmeister/clasp
 
+# force checkout
+clasp_force_checkout: true
