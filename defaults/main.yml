@@ -1,2 +1,12 @@
 ---
 # defaults file for clasp-build
+
+# which git branch to checkout
+clasp_branch: testing
+
+# clasp source repo directory
+clasp_src_dir: ~/clasp
+
+# clasp remote
+clasp_repo: https://github.com/drmeister/clasp
+
