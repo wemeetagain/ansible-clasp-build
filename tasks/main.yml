@@ -1,4 +1,6 @@
 ---
 # tasks file for clasp-build
 - include: checkout.yml
+  tags:
+    - checkout
 - include: make.yml
