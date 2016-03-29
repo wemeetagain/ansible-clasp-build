@@ -4,3 +4,7 @@
   shell: make clean; make
   args:
     chdir: "{{ clasp_src_dir }}"
+  environment:
+    - TARGET_OS: "{{ target_os }}"
+    - EXTERNALS_CLASP_DIR: "{{ externals_clasp_dir }}"
+    - PJOBS: "{{ pjobs }}"
