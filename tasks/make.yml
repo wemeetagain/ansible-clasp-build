@@ -5,6 +5,6 @@
   args:
     chdir: "{{ clasp_src_dir }}"
   environment:
-    - TARGET_OS: "{{ target_os }}"
+    - TARGET_OS: "{{ ansible_system }}"
     - EXTERNALS_CLASP_DIR: "{{ externals_clasp_dir }}"
     - PJOBS: "{{ pjobs }}"
