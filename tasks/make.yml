@@ -1,9 +1,12 @@
 ---
 
+- name: Clean clasp
+  make: chdir={{ clasp_src_dir }} target=clean
+  tags:
+    - clean
+
 - name: Make clasp
-  shell: make clean; make
-  args:
-    chdir: "{{ clasp_src_dir }}"
+  make: chdir={{ clasp_src_dir }}
   environment:
     - TARGET_OS: "{{ ansible_system }}"
     - EXTERNALS_CLASP_DIR: "{{ externals_clasp_dir }}"
