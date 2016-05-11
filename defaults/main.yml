@@ -14,7 +14,7 @@ clasp_repo: https://github.com/drmeister/clasp
 clasp_force_checkout: true
 
 # linux or darwin
-target_os: linux
+target_os: Linux
 
 # How many parallel jobs to use for C/++ compilation.
 pjobs: 1
