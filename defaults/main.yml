@@ -7,8 +7,8 @@ clasp_branch: testing
 # clasp source repo directory
 clasp_src_dir: ~/clasp
 
-# clasp remote
-clasp_repo: https://github.com/drmeister/clasp
+# clasp remote url
+clasp_repo_url: https://github.com/drmeister/clasp
 
 # force checkout
 clasp_force_checkout: true
