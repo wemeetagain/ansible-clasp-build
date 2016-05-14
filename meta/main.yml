@@ -16,4 +16,5 @@ galaxy_info:
   galaxy_tags: []
 
 dependencies:
+  - role: base-prep
   - role: clasp-externals
