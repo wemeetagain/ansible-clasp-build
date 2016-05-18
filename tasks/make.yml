@@ -3,14 +3,14 @@
 - name: Clean clasp
   shell: make clean
   args:
-    chdir:{{ clasp_src_dir }}
+    chdir: "{{ clasp_src_dir }}"
   tags:
     - clean
 
 - name: Make clasp
   shell: make
   args:
-    chdir:{{ clasp_src_dir }}
+    chdir: "{{ clasp_src_dir }}"
   environment:
     - TARGET_OS: "{{ ansible_system }}"
     - EXTERNALS_CLASP_DIR: "{{ externals_clasp_dir }}"
