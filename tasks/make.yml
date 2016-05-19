@@ -5,7 +5,7 @@
   args:
     chdir: "{{ clasp_src_dir }}"
   tags:
-    - clean
+    - clasp-clean
 
 - name: Make clasp
   shell: make
