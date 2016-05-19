@@ -5,3 +5,4 @@
        dest={{ clasp_src_dir }}
        version={{ clasp_branch }}
        force={{ clasp_force_checkout }}
+       recursive=false
