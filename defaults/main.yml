@@ -17,5 +17,5 @@ clasp_force_checkout: true
 pjobs: 1
 
 # externals-clasp source directory
-externals_clasp_dir: "{{ externals_clasp_src_dir }}"
+externals_clasp_dir: /home/vagrant/externals-clasp
 
