@@ -6,7 +6,7 @@ This role builds clasp from source.
 Role Variables
 --------------
 
-- clasp_branch - which branch of code to build from
+- clasp_version - which branch/commit/tag of code to build from
 - clasp_src_dir - directory to download clasp source
 - clasp_repo_url - url of remote clasp repo
 - clasp_force_checkout - whether to force a recheckout
