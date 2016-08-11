@@ -14,7 +14,7 @@ clasp_repo_url: https://github.com/drmeister/clasp
 clasp_force_checkout: true
 
 # How many parallel jobs to use for C/++ compilation.
-pjobs: 1
+pjobs: 2
 
 # externals-clasp source directory
 externals_clasp_dir: /home/vagrant/externals-clasp
