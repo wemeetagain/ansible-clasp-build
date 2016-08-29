@@ -1,6 +1,0 @@
----
-
-- name: Make clasp
-  shell: make
-  args:
-    chdir: "{{ clasp_src_dir }}"

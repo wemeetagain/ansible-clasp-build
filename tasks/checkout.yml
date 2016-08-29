@@ -1,8 +1,0 @@
----
-
-- name: Checkout clasp from repo
-  git: repo={{ clasp_repo_url }}
-       dest={{ clasp_src_dir }}
-       version={{ clasp_version }}
-       force={{ clasp_force_checkout }}
-       recursive=false
