@@ -6,6 +6,8 @@
 
 - name: Copy local.config
   template: src=local.config.j2 dest="{{ clasp_src_dir }}/local.config"
+  tags:
+    - clasp-config
 
 - include: make.yml
   tags:
