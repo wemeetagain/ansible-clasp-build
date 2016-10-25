@@ -9,8 +9,8 @@
   tags:
     - clasp-checkout
 
-- name: Copy local.config
-  template: src=local.config.j2 dest="{{ clasp_src_dir }}/local.config"
+- name: Copy wscript.config
+  template: src=wscript.config.j2 dest="{{ clasp_src_dir }}/wscript.config"
   tags:
     - clasp-config
 
