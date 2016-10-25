@@ -15,7 +15,7 @@
     - clasp-config
 
 - name: Make clasp
-  shell: make
+  shell: ./waf configure update_submodules build_cboehm -j {{ pjobs }}
   args:
     chdir: "{{ clasp_src_dir }}"
   tags:
