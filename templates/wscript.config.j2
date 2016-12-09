@@ -11,6 +11,9 @@
 # version constraints make that ideal sometimes unreachable.
 EXTERNALS_CLASP_DIR = '{{ externals_clasp_dir }}'
 
+# To link to llvm debug libraries set a path to the llvm-config for the llvm debug build
+# LLVM_CONFIG_DEBUG_PATH = "/full/path/externals-clasp/build/debug/bin/llvm-config"
+
 # Where to install clasp. Defaults to '/usr/local/'.
 #INSTALL_PATH_PREFIX = '/opt/clasp/'
 
@@ -24,3 +27,6 @@ EXTERNALS_CLASP_DIR = '{{ externals_clasp_dir }}'
 # This is how you can specify non-standard locations
 #INCLUDES = "/opt/boost_1_62_0/include"
 #LINKFLAGS = ["-L/opt/boost_1_62_0/lib", "-Wl,-rpath=/opt/boost_1_62_0/lib"]
+
+# This turns on build with address sanitizer
+# ADDRESS_SANITIZER = True
